@@ -6,12 +6,12 @@
 */
 
 * {
-    outline: 1px dotted black;
+    outline: 1px solid black;
 }
 
 /* Doodle Stage */
 #stage {
-  background: #ccc;
-  height: 300px;
+  background: #93C47D;
+  height: 400px;
   width: 600px;
 }
