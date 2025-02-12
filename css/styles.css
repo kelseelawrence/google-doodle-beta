@@ -1,17 +1,15 @@
 /* My Awesome Styles */
-
-/* Diagnostic Styling 
-  * Change Background Color
-  * Outline Elements
-*/
-
-* {
-    outline: 1px solid black;
-}
-
 /* Doodle Stage */
 #stage {
-  background: #93C47D;
+  background: #87CEEB;  
   height: 400px;
   width: 600px;
+}
+
+#sun {
+  fill: yellow;
+}
+
+.grass { 
+  fill: green;
 }
