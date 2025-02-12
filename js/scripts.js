@@ -1,6 +1,5 @@
-Document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   console.log('OK');
-}
 
 gsap.to("#flower-one", {
   scale : 2.5,
@@ -67,4 +66,6 @@ Draggable.create(".food", {
       gsap.to(this.target, {duration: 1.0, opacity:0.5, scale:0 })
     }
   }
+});
+
 });
