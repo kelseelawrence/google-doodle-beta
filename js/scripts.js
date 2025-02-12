@@ -1,5 +1,6 @@
-ocument.addEventListener('DOMContentLoaded', function() {
+Document.addEventListener('DOMContentLoaded', function() {
   console.log('OK');
+}
 
 gsap.to("#flower-one", {
   scale : 2.5,
@@ -49,14 +50,14 @@ gsap.to("#right-globe", {
   duration: 5,
   transformOrigin: "50% 50%",
   repeat: -1,
-        })
+ })
 
 gsap.to("#left-globe", {
   rotate: -360,
   duration: 5,
   transformOrigin: "50% 50%",
   repeat: -1,
-        })
+ })
 
 
 Draggable.create(".food", {
