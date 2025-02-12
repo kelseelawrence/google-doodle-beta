@@ -1,4 +1,5 @@
-console.log('OK');
+ocument.addEventListener('DOMContentLoaded', function() {
+  console.log('OK');
 
 gsap.to("#flower-one", {
   scale : 2.5,
@@ -57,10 +58,6 @@ gsap.to("#left-globe", {
   repeat: -1,
         })
 
-gsap.to(".grass", {
-  ease: "bounce.in",
-  duration: 2.5,
-        })
 
 Draggable.create(".food", {
   bounds: "svg",
