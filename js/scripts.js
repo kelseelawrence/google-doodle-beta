@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
           scale: 0
         });
         gsap.to("#lid, #handle", {
-          rotate: 45,
+          rotate: 90,
           duration: 1.0
         });
       }
