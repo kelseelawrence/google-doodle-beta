@@ -13,3 +13,24 @@
 .grass { 
   fill: green;
 }
+
+#banana { 
+  fill: #FFE279;
+}
+
+#apple {
+  fill: #dd1533;
+}
+
+#fish { 
+  fill: #d1edf2;
+}
+
+
+#outline {
+  fill: yellow
+}
+
+#inner-circle {
+  fill: white;
+}

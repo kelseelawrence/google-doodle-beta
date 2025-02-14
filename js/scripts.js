@@ -1,6 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
   console.log('OK');
 
+  // gsap.to(".letters", {
+  //   duration: 3,
+  //   ease: "power1.in",
+  //   yoyo: true,
+  //   repeat: -1,
+  // });
+
   gsap.to("#flower-one", {
     scale : 2.5,
     duration : 3,
@@ -69,7 +76,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         gsap.to("#lid, #handle", {
           rotate: 90,
-          duration: 1.0
+          transformOrigin: "top right",
+          duration: 1.0,
+          repeat: true,
         });
       }
     }
