@@ -66,14 +66,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // Open Lid
-        gsap.to("#lid, #handle", {
-          rotate: -90,
+        gsap.to("#handle-lid", {
+          rotate: 90,
           transformOrigin: "right top",
           duration: 0.5,
         });
 
         // Close Lid after 1 second
-        gsap.to("#lid, #handle", {
+        gsap.to("#handle-lid", {
           rotate: 0,
           duration: 0.5,
           delay: 1,
