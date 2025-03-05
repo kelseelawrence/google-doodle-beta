@@ -26,11 +26,44 @@
   fill: #d1edf2;
 }
 
-
-#outline {
-  fill: yellow
+/* #one {
+  fill: red;
 }
 
-#inner-circle {
-  fill: white;
+#two {
+  fill: red;
+}
+
+#three {
+  fill: red;
+}
+
+#four {
+  fill: red;
+} */
+ 
+@keyframes sway {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+.grass {
+  animation: sway 2s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+#grass-right {
+  animation-delay: 0s;
+}
+
+#grass-left {
+  animation-delay: 0.2s;
 }
