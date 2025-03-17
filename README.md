@@ -8,9 +8,8 @@ This project tested my patience. I tried about 5o different SVG versions before 
 [Sample to Figma Collage](https://www.figma.com/design/yGC1MiE66PgXcznjUGSSzO/Style-Tile-for-Google-Doodle-KL?node-id=0-1&t=WlkaMGZT8TREGOj2-1)
 
 ## Resources
-SVG Resources Used
+* [GSAP](https://gsap.com/)
 * [Icons 8](https://icons8.com/icons)
 * [SVG Repo](https://www.svgrepo.com/)
 * [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)
-Others
-* [GSAP](https://gsap.com/)
+
