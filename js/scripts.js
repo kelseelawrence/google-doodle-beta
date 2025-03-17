@@ -24,7 +24,17 @@ document.addEventListener('DOMContentLoaded', function() {
     flower.setAttribute('fill', selectedColor);
     flower.setAttribute('stroke', '#000'); // Ensure the stroke is visible
   });
-
+  
+  gsap.from(".letter", {
+    y: -30,
+    duration: 1,
+    ease: "bounce.out",
+    stagger: 0.2,
+    repeat: -1,
+    repeatDelay: 3,
+  });
+  
+  
   gsap.to("#flower-one", {
     scale: 1.8, // Reduced scale
     duration: 4,
